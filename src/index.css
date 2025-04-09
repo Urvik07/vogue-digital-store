@@ -7,66 +7,66 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --background: 36 33% 97%; /* Light beige background */
+    --foreground: 30 6% 25%;  /* Dark beige text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card: 36 33% 99%;
+    --card-foreground: 30 6% 25%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 36 33% 99%;
+    --popover-foreground: 30 6% 25%;
 
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 30 6% 25%;     /* Dark beige primary */
+    --primary-foreground: 36 33% 97%;
 
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
+    --secondary: 33 30% 94%;  /* Light beige secondary */
+    --secondary-foreground: 30 6% 25%;
 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+    --muted: 33 30% 94%;
+    --muted-foreground: 30 6% 45%;
 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: 33 40% 90%;     /* Slightly darker beige for accent */
+    --accent-foreground: 30 6% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 36 33% 97%;
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 5.9% 10%;
+    --border: 30 10% 85%;     /* Beige border */
+    --input: 30 10% 85%;
+    --ring: 30 6% 25%;
 
     --radius: 0.3rem;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background: 240 10% 3.9%;
-      --foreground: 0 0% 98%;
+      --background: 30 6% 25%;      /* Dark beige background for dark mode */
+      --foreground: 36 33% 97%;     /* Light beige text for dark mode */
   
-      --card: 240 10% 3.9%;
-      --card-foreground: 0 0% 98%;
+      --card: 30 6% 25%;
+      --card-foreground: 36 33% 97%;
   
-      --popover: 240 10% 3.9%;
-      --popover-foreground: 0 0% 98%;
+      --popover: 30 6% 25%;
+      --popover-foreground: 36 33% 97%;
   
-      --primary: 0 0% 98%;
-      --primary-foreground: 240 5.9% 10%;
+      --primary: 36 33% 97%;        /* Light beige primary for dark mode */
+      --primary-foreground: 30 6% 25%;
   
-      --secondary: 240 3.7% 15.9%;
-      --secondary-foreground: 0 0% 98%;
+      --secondary: 30 10% 30%;      /* Darker beige secondary for dark mode */
+      --secondary-foreground: 36 33% 97%;
   
-      --muted: 240 3.7% 15.9%;
-      --muted-foreground: 240 5% 64.9%;
+      --muted: 30 10% 30%;
+      --muted-foreground: 30 6% 70%;
   
-      --accent: 240 3.7% 15.9%;
-      --accent-foreground: 0 0% 98%;
+      --accent: 30 15% 35%;         /* Medium beige accent for dark mode */
+      --accent-foreground: 36 33% 97%;
   
       --destructive: 0 62.8% 30.6%;
-      --destructive-foreground: 0 0% 98%;
+      --destructive-foreground: 36 33% 97%;
   
-      --border: 240 3.7% 15.9%;
-      --input: 240 3.7% 15.9%;
-      --ring: 240 4.9% 83.9%;
+      --border: 30 10% 35%;        /* Medium beige border for dark mode */
+      --input: 30 10% 35%;
+      --ring: 36 33% 90%;
     }
   }
 }
@@ -101,12 +101,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(198, 189, 174, 0.5);  /* Beige scrollbar */
   border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(198, 189, 174, 0.7);  /* Darker beige on hover */
 }
 
 .no-scrollbar::-webkit-scrollbar {
